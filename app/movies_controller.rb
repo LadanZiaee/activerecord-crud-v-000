@@ -41,7 +41,7 @@ end
 
 def can_get_the_last_item_in_the_database
   a = Movie.all
-  a.first.reverse
+  a.last
 end
 
 def can_get_size_of_the_database
